@@ -4,6 +4,8 @@ public class Cliente {
 	
 	private String nome;
 	private int cpf;
+	private int numero;
+	private String tipoconta;
 	public Cliente(String nome, int cpf) {
 		super();
 		this.nome = nome;
