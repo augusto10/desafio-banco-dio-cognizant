@@ -32,7 +32,7 @@ public class Programa {
 		aluno1.setSerieMatriculado(serie);
 		aluno1.setNomeEscola(escola);
 		
-		for(int pos =1; pos<=4; pos++ ) {
+		for(int pos =1; pos<=10; pos++ ) {
 			String nomeDisciplina= JOptionPane.showInputDialog("nome da disciplina" +pos+ "?");
 			String notaDisciplina= JOptionPane.showInputDialog("nota da disciplina" +pos+ "?");
 			
